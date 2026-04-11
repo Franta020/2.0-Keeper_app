@@ -1,0 +1,69 @@
+:root {
+  --primary-color: #fa812f;
+  --text-color: #fef3e2;
+  --detail-1: #fff085;
+  --detail-2: #f3c623;
+  --background: #ffb22c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playpen Sans";
+}
+
+html {
+  font-size: 16px;
+}
+
+header {
+  width: 100%;
+}
+
+h1 {
+  padding: 30px;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  font-size: 2.3rem;
+}
+
+#root {
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.note-container {
+  min-height: 80vh;
+  max-height: 90vh;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px 20px;
+  background-color: var(--text-color);
+}
+
+.note {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  gap: 3px;
+  border-radius: 10px;
+  color: var(--primary-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  flex-wrap: 0;
+  flex: 1 1 300px;
+}
+
+footer {
+  color: var(--primary-color);
+  opacity: 70%;
+}
