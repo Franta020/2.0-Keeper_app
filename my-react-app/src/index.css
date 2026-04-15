@@ -39,15 +39,15 @@ h1 {
 }
 
 .note-container {
-  min-height: 80vh;
   max-height: 90vh;
   display: flex;
   width: 100%;
   flex-wrap: wrap;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   padding: 10px 20px;
   background-color: var(--text-color);
+  gap: 20px;
 }
 
 .note {
@@ -59,7 +59,7 @@ h1 {
   border-radius: 10px;
   color: var(--primary-color);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-  flex-wrap: 0;
+  flex-wrap: wrap;
   flex: 1 1 300px;
 }
 
