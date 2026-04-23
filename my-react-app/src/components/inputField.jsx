@@ -22,10 +22,9 @@ function InputField(props) {
         value={note.noteTitle}
       />
       <textarea
-        className="input-text"
         type="text"
         name="noteText"
-        size="200"
+        rows="3"
         placeholder="Note text"
         onChange={HandleChange}
         value={note.noteText}
@@ -33,7 +32,10 @@ function InputField(props) {
       <button
         className="add-button"
         type="button"
-        onClick={() => props.onClick(note)}
+        onClick={() => {
+          setNote({ noteText: "", noteTitle: "" });
+          props.onClick(note);
+        }}
       >
         {" "}
         Add

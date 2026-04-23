@@ -114,9 +114,9 @@ textarea:focus {
   outline: 1px solid var(--background);
 }
 
-.input-text {
+/* .input-text {
   height: 100px;
-}
+} */
 
 .add-button {
   font-size: 0.9rem;
