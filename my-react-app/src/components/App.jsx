@@ -10,6 +10,7 @@ function App() {
   const [notes, setNotes] = useState([]);
 
   function HandleClick(note) {
+    if (note.noteText === "" || note.noteTitle === "") return;
     setNotes((prev) => [...prev, note]);
   }
 
