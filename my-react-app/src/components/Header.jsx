@@ -1,9 +1,13 @@
 import React from "react";
+import CameraIcon from "@mui/icons-material/Camera";
 
 function Header() {
   return (
     <header>
-      <h1>Keeper</h1>
+      <h1>
+        {" "}
+        <CameraIcon fontSize="large" /> Keeper
+      </h1>
     </header>
   );
 }

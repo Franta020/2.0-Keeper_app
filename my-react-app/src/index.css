@@ -13,6 +13,11 @@
   font-family: "Playpen Sans";
 }
 
+body {
+  background-color: var(--background);
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
+}
+
 html {
   font-size: 16px;
 }
@@ -36,6 +41,8 @@ h1 {
 }
 
 .container-i {
+  background-image: url("https://www.transparenttextures.com/patterns/lined-paper-2.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   display: flex;
   justify-content: center;
   width: 100%;
@@ -44,6 +51,8 @@ h1 {
 }
 
 .note-container {
+  background-image: url("https://www.transparenttextures.com/patterns/lined-paper-2.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   min-height: 70vh;
   display: flex;
   align-content: flex-start;
